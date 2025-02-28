@@ -963,7 +963,7 @@ z-index: 1 ;
   margin-top: 10px;
   border-left: 2px solid var(--accent-color);
   position: relative;
-  background-color: rgba(56, 116, 120, 0.90);;
+  background-color: rgba(56, 116, 120, 0.90);
   color: white;
   border-radius: 10px;
 }
@@ -1112,6 +1112,14 @@ z-index: 1 ;
   font-weight: 700;
   color: color-mix(in srgb, var(--default-color), transparent 40%);
 }
+.button{
+  border-color:rgba(56, 116, 120, 0.90)  ;
+  font-family:"Bai Jamjuree", serif ;
+}
+.button:hover{
+  background:rgba(56, 116, 120, 0.90) ;
+  border-color: rgba(56, 116, 120, 0.90);
+}
 
 /*--------------------------------------------------------------
 # Portfolio Section
@@ -1155,7 +1163,6 @@ z-index: 1 ;
     margin: 0 5px;
   }
 }
-
 .portfolio .portfolio-item {
   position: relative;
 }
@@ -1777,6 +1784,7 @@ z-index: 1 ;
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+.footer{
+  background-color: rgba(56, 116, 120, 0.90);
+  color: white;
 }
